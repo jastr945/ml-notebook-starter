@@ -1,1 +1,25 @@
+# Core Python tools
+pandas>=1.5
+numpy>=1.23
 
+# Data visualization
+matplotlib>=3.6
+seaborn>=0.12
+
+# Machine learning
+scikit-learn>=1.2
+xgboost>=1.7         # Optional, but useful for interpretable models
+lightgbm>=3.3        # Also optional
+torch>=2.0           # For deep learning (PyTorch)
+
+# Model interpretability
+shap>=0.41
+captum>=0.6          # For PyTorch model interpretability
+
+# Notebook and dev tools
+jupyterlab>=3.5
+ipykernel>=6.15
+tqdm>=4.65
+
+# Others
+pyyaml>=6.0          # For config loading
